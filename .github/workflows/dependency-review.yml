@@ -17,6 +17,7 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v7
       - name: Dependency Review
-        uses: actions/dependency-review-action@v5
+        # Testing https://github.com/actions/dependency-review-action fork with license case normalization
+        uses: cadivus/dependency-review-action@76844ebec4af2b6ac467a4d2565d3670322b2600 # normalize-license-case-dist
         with:
           config-file: './.github/dependency-review-config.yml'
