@@ -4,8 +4,6 @@ allow_licenses:
   - "BSD-1-Clause"
   - "BSD-2-Clause-FreeBSD"
   - "BSD-2-Clause"
-  - "BSD-3-Clause-Attribution"
-  - "BSD-3-Clause"
   - "BSD-Source-Code"
   - "bzip2-1.0.6"
   - "CC0-1.0"
